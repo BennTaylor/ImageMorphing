@@ -2,7 +2,7 @@
 This repository contains code for producing image morphing videos - a smooth transformation between two images. Relevant code files are:
 - **utils.py:** Function for writing video file from frames.
 - **feature_mapping_selector.ipynb:** Interactive widget functionality for click-based feature selection (preprocessing step for morphing). Detailed usage instructions are inside.
-- **image_morphing.ipynb:** All computation related to morphing algorithm
+- **image_morphing.ipynb:** All computation related to morphing algorithm.
 
 
 ## Usage
