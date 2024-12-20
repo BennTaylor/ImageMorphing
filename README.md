@@ -16,7 +16,7 @@ This project implements image morphing via Delaunay Triangulation. Here is an ou
 Let $\text{im}_1$ refer to the initial image, and $\text{im}_2$ the final image.
 1. ***Key feature mapping:***  Identify corresponding points in each image representing features of the depicted objects/scenes we intend to morph into each other (i.e. human pupil to dog pupil, outline of facial structure, etc.). This process is done manually via a GUI we made in the notebook.
 
-2. ***Compute Delaunay Triangulation for $\textbf{im}_\textbf{1}$ then map it to a triangulation of $\textbf{im}_\textbf{2}$:*** In this step, we partition each image into triangles whose vertices are the key feature points. Crucially, we compute the triangles only for the first image, then extract a triangulation of the second by mapping the triangles to their corresponding vertices in $\text{im}_2$ according to the feature mapping. 
+2. ***Compute Delaunay Triangulations:*** In this step, we partition each image into triangles whose vertices are the key feature points. Crucially, we compute the triangles only for the first image, then extract a triangulation of the second by mapping the triangles to their corresponding vertices in $\text{im}_2$ according to the feature mapping. 
 
 *The following steps are done for each frame of the resulting morphing animation.* 
 
